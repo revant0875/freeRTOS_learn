@@ -2,6 +2,17 @@
 #define FREERTOS_CONFIG_H
 
 /* Basic settings */
+/**
+ * with the below 2 macros set to 0 app can have no heap but you will not be 
+ * able to use the  xTaskCreate api 
+ *  @note need to do more research about this
+ */
+/*
+#define configSUPPORT_DYNAMIC_ALLOCATION 0 //0 - do not want to use dynamic allocation (No heap)
+#define configSUPPORT_STATIC_ALLOCATION 0 //
+*/
+// macros are written in caps and prefix in lower which indicates where
+// macros is defined
 #define configUSE_PREEMPTION            1
 #define configUSE_IDLE_HOOK             0
 #define configUSE_TICK_HOOK             0
