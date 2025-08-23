@@ -1,0 +1,26 @@
+# Build artifacts
+/build/
+/bin/
+/*.o
+*.out
+*.elf
+*.map
+*.bin
+*.hex
+
+# IDE/editor stuff
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+
+# VSCode
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
